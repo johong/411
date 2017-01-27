@@ -3,9 +3,10 @@ module Main (main) where
 import System.Environment
 }
 
-%wrapper "basic"
+%wrapper "monad"
 
 --Macros to use in token definitions
+--Defining numbers, characters, and newline
 $digit = 0-9
 $alpha = [a-zA-Z]
 $newline = [\n]
@@ -14,13 +15,12 @@ $newline = [\n]
 --regularexpression {code}
 --if input matches regexp, return code
 --; simply replaces code, meaning this token should be ignored
---let for example is type "String -> Token"
 tokens :-
 
 	$white+							;
 	"%".* $newline+					;
 	$newline						;
-	"/*" (.* $newline)+ "*/"		;
+	"/*" (.* $newline)+ (.* "*/")	;
 	if								{ \s -> IF }
 	then							{ \s -> THEN }
 	while							{ \s -> WHILE }

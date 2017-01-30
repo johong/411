@@ -1,0 +1,13 @@
+/*
+Now multiline comments with more opens than close
+/*
+*/
+print thisshouldfail;
+
+nothinghereshouldwork
+
+x := x
+begin
+if
+();
+% single line comments in broken multiline comments

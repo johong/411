@@ -1,0 +1,11 @@
+/*
+Multiline comment test
+*/
+
+begin
+	y:= 23;
+	x:= 13 + y;
+	write x;
+end
+
+%Testing single line comments afterwards too

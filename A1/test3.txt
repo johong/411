@@ -1,0 +1,10 @@
+/*
+Now nested Multiline comments
+/*
+Counter should be 2
+*/
+x := y;
+print thisshouldnotprint;
+*/
+print this
+x;

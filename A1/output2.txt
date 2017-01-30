@@ -1,0 +1,27 @@
+
+E:\Documents\CPSC\411\Assignments\A1>ghci
+GHCi, version 8.0.1: http://www.haskell.org/ghc/  :? for help
+Prelude> :l Assignment1
+[1 of 1] Compiling Main             ( Assignment1.hs, interpreted )
+
+assignment1.x:53:1: warning: [-Wtabs]
+    Tab character found here, and in 112 further locations.
+    Please use spaces instead.
+Ok, modules loaded: Main.
+*Main> :main test2.m
+
+
+Tokens:
+ID "a"
+MUL
+ID "b"
+ADD
+LPAR
+ID "x"
+MUL
+MUL
+ID "y"
+*** Exception: lexical error
+CallStack (from HasCallStack):
+  error, called at templates\wrappers.hs:390:32 in main:Main
+*Main>

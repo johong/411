@@ -1,0 +1,12 @@
+%Basic test. Reads symbols and
+%multiple 1 line Comments
+begin
+	write
+	if
+		y:= 23;
+	then
+		x:= 13 + y;
+	else
+		write x;
+end
+do input while

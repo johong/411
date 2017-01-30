@@ -1,0 +1,10 @@
+%Test 1
+/*
+Just a random multi comment
+*/
+
+x := 1 + 5
+
+y:=5-3
+
+*/

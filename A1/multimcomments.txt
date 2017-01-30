@@ -1,0 +1,16 @@
+/*
+Test 3
+*/
+/*
+Multiple multiline comments
+*/
+print true
+begin
+end
+if
+then
+while
+do input do else
+thisshouldbeanid
+100101101
+idwith39038
